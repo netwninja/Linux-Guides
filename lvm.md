@@ -3,12 +3,20 @@
 LVM is a tool for logical volume management which includes allocating disks, striping, mirroring and resizing logical volumes. Before we get into LVM there needs to be terminology defined.
 
 **Physical Volumes**
+
 Prefix: pv
-Description: Physical volumes can be defined as physical devices or partitions within the device. For example: A physical device can be **/dev/sdb** **/dev/sdc** or **/dev/sdb1 /dev/sdc1 etc..**
+
+Description: Physical volumes can be defined as physical devices or partitions within the device.
+
+For example: A physical device can be **/dev/sdb** **/dev/sdc** or **/dev/sdb1 /dev/sdc1 etc..**
 
 **Volume Group**
+
 Prefix: vg
-Description: A combination pool of physical volumes. Example: /dev/sdb + /dev/sdc = Volgroup1 OR /dev/sdb1 + /dev/sdc1 = Volgroup2
+
+Description: A combination pool of physical volumes. 
+
+Example: /dev/sdb + /dev/sdc = Volgroup1 OR /dev/sdb1 + /dev/sdc1 = Volgroup2
 
 
 **Extents**
@@ -17,7 +25,9 @@ Description: Helps allocate Logcial Volumes.
 
 
 **Logcial Volumes**
+
 Prefix: pv
+
 Description:  A logical/virtual partition that can be is made of multiple extents. This can be formatted with a file system.  
 
 ![lvm1](https://github.com/sxcdennis/Linux-Guides/blob/master/images/lvm1.png?raw=true)
