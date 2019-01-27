@@ -1,6 +1,6 @@
 # yum: Creating and Updating repositories (including updating kernels)
 
-**yum** and **rpm** are both able to install and upgrade packages. The biggest difference is that *YUM* looks for dependencies whereas *rpm* does not. This means that rpm can install any versions whereas
+**yum** and **rpm** are both able to install and upgrade packages. The biggest difference is that *YUM* looks for dependencies whereas *rpm* does not. This means that rpm can install any versions whereas yum cannot.
 
 # yum
 
